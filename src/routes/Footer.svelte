@@ -3,7 +3,7 @@
 <footer class="sticky-footer">
   <div class="sticky-footer__container-menu">
     <div>
-      <h3>About</h3>
+      <h3 class="sticky-footer__menu-title">About</h3>
       <ul class="sticky-footer__menu">
         <li>Home</li>
         <li>Projects</li>
@@ -12,7 +12,7 @@
       </ul>
     </div>
     <div>
-      <h3>Education</h3>
+      <h3 class="sticky-footer__menu-title">Education</h3>
       <ul class="sticky-footer__menu">
         <li>News</li>
         <li>Learn</li>
@@ -36,9 +36,15 @@
     height: 600px;
   }
 
+  .sticky-footer__menu-title {
+    margin-bottom: 10px;
+  }
+
   .sticky-footer__menu {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none;
+    display: grid;
+    gap: 5px;
   }
 
   .sticky-footer__container-menu {

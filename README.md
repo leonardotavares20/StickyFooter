@@ -1,38 +1,31 @@
-# create-svelte
+# Sticky Footer with CSS
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+This is a sticky footer that i made with CSS, i learn this footer on the Olivier Larose <a href="https://www.youtube.com/watch?v=zlp4Hj5EMCc" target="_blank">channel</a>
 
-## Creating a project
+## Clone
 
-If you're seeing this, you've probably already done this step. Congrats!
+Git <br>
+``
+git clone https://github.com/leonardotavares20/StickyFooter.git
+``
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+GH(GitHub CLI) <br>
+``
+gh repo clone leonardotavares20/StickyFooter
+``
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Install
+``
+pnpm install
+``
 
-## Developing
+## Run
+``
+pnpm dev
+``
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## Open
 
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+``
+http://localhost:5173
+``

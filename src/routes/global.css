@@ -1,0 +1,16 @@
+@font-face {
+  font-family: "Kolors";
+  font-style: normal;
+  font-weight: 500;
+  src: url("fonts/kolors-regular.otf");
+  src: local("fonts/kolors-regular.otf"),
+    url("fonts/kolors-regular.otf") format("opentype");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 0;
+  font-family: "Kolors";
+}
